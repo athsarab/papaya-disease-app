@@ -17,7 +17,7 @@ export interface PapayaResult {
 
 export interface HistoryItem {
   id: string;
-  imageUri?: string;
+  imageUri?: string; 
   capturedAt: string;
   result: PapayaResult;
 }
