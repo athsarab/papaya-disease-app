@@ -5,4 +5,4 @@ import { useSettings } from '../context/SettingsContext';
 export const useAppTheme = () => {
   const { resolvedTheme } = useSettings();
   return useMemo(() => getTheme(resolvedTheme), [resolvedTheme]);
-};
+}; 
