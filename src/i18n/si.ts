@@ -20,7 +20,7 @@ const si: Translations = {
   scan_retry: 'TODO: Sinhala - Retry',
   scan_select_image_first: 'TODO: Sinhala - Select image first',
   result_title: 'TODO: Sinhala - Diagnosis result',
-  result_confidence_label: 'TODO: Sinhala - Confidence',
+  result_confidence_label: 'TODO: Sinhala - Confidence', 
   result_save: 'TODO: Sinhala - Save to history',
   result_saved: 'TODO: Sinhala - Saved to history',
   result_back_home: 'TODO: Sinhala - Back to home',
