@@ -11,7 +11,7 @@ import RootNavigator from './src/navigation/RootNavigator';
 import { SettingsProvider, useSettings } from './src/context/SettingsContext';
 import { HistoryProvider } from './src/context/HistoryContext';
 import { getTheme } from './src/styles/theme';
-
+ 
 const AppContainer = () => { 
   const { resolvedTheme } = useSettings();
   const appTheme = getTheme(resolvedTheme);
