@@ -19,7 +19,7 @@ const AppContainer = () => {
     ...(resolvedTheme === 'dark' ? NavigationDarkTheme : NavigationLightTheme),
     colors: {
       ...(resolvedTheme === 'dark'
-        ? NavigationDarkTheme.colors
+        ? NavigationDarkTheme.colors 
         : NavigationLightTheme.colors),
       primary: appTheme.colors.primary,
       background: appTheme.colors.background,
