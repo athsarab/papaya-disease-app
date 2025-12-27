@@ -6,7 +6,7 @@ import {
   DefaultTheme as NavigationLightTheme,
   NavigationContainer,
   Theme as NavigationTheme,
-} from '@react-navigation/native';
+} from '@react-navigation/native'; 
 import RootNavigator from './src/navigation/RootNavigator';
 import { SettingsProvider, useSettings } from './src/context/SettingsContext';
 import { HistoryProvider } from './src/context/HistoryContext';
